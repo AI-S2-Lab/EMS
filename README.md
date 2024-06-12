@@ -6,7 +6,7 @@ This is an implementation of the following paper.
 > [Emotion-Aware Speech Self-Supervised Representation Learning with Intensity Knowledge.](https://www.arxiv.org/abs/2406.06646)
  
 
- [Rui Liu](https://ttslr.github.io/), Zening Ma.
+ [Rui Liu](https://ttslr.github.io/), [Zening Ma](https://github.com/codening99).
  
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]([https://www.arxiv.org/abs/2406.06646])
