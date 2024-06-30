@@ -13,6 +13,22 @@ This is an implementation of the following paper.
 
 
  
-## Code
+## Environment
+install s3prl package:
+```
+pip install s3prl
+```
+Our code is modified from S3PRL, more details of S3PRL installation can be found at https://s3prl.github.io/s3prl/tutorial/installation.html#
 
-The code will be made available upon publication.
+
+## Usage
+You can test for downstream tasks using the following code:
+```
+python run_downstream.py -m train -d downstream_name -n your_name -u upstream_name -k xxx.ckpt
+```
+`-u` specifies the upstream pretrained model. In our approach you can use `npc_local` or `mockingjay_local`.
+
+`-d` specifies the downstream task. There are three downstream tasks included in our approach, which are: `emotion`, `fluent_commands`, `voxceleb1` and `ctc`.
+
+
+More details on downstream missions can be found at: https://github.com/s3prl/s3prl/blob/main/s3prl/downstream/README.md
